@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "laminas/laminas-diactoros": "^2.14",
+        "illuminate/database": "^9.25",
+        "slim/middleware": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "App\\": "app"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:3000 -t app app/App.php"
+    }
+}
